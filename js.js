@@ -24,7 +24,7 @@ async function GiveTabel() {
 
     // Додайте обробник подій onclick для user.name
     cell2.addEventListener('onclick', function () {
-      console.log("Працює");
+      handleUserNameClick(user);
     });
 
     // // Отримати існуючий рядок (виберіть метод відповідно до вашої структури HTML)
